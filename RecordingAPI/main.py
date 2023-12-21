@@ -26,8 +26,6 @@ def translatetext():
 current_file = os.path.realpath(__file__)
 current_directory = os.path.dirname(current_file)
 
-#audio_files_path = os.path.dirname("AudioFiles")
-#audio_text_files_path = os.path.dirname("AudioAndTextFiles")
 audio_files_path = current_directory + "/AudioFiles/"
 audio_text_files_path = current_directory + "/AudioAndTextFiles/"
 def SaveUserFile(file):
